@@ -1,4 +1,6 @@
-# Programming with Python and R
+![python-and-r banner](assets/python-and-r-banner.png)
+
+---
 
 ## 🚀 Overview
 This repo holds my uni **Python and R course** and all the weird stuff I’ll end up writing here.
@@ -22,6 +24,8 @@ cd dd-mm-yy-class/
 ## Structure
 ```text
 python-and-r/
+├─ assets/
+│  └─ python-and-r-banner.png
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
