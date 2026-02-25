@@ -1,0 +1,17 @@
+[project]
+name = "introduction-assignment"
+version = "0.1.0"
+description = "Python 11 Syntax and Variables workspace"
+requires-python = ">=3.14"
+
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
