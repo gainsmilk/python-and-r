@@ -12,13 +12,13 @@ This repo holds my uni **Python and R course** and all the weird stuff I’ll en
 git clone https://github.com/gainsmilk/python-and-r.git
 cd python-and-r
 
-# Python setup
+# Jump into any class folder you want
+cd dd-mm-yy-class/
+
+# Python setup inside that class folder
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
-# Jump into any class folder you want
-cd dd-mm-yy-class/
 ```
 
 ## Structure
@@ -30,7 +30,8 @@ python-and-r/
 ├─ LICENSE
 ├─ README.md
 └─ dd-mm-yy-class/
-   └─ src/  # Code
+   ├─ .venv/   # Local class virtualenv
+   └─ src/     # Code
 ```
 
 **Note:** All class folders follow the format `dd-mm-yy-class/`, and materials + extras live in the class folder root.
