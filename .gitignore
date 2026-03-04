@@ -47,3 +47,6 @@ htmlcov/
 
 # OS files
 .DS_Store
+
+# Local tracking
+/TODO.md
